@@ -1,0 +1,161 @@
+#bloco_fundo{
+    width: 1583px;
+    height: 980px;
+    background-image: url(img/planodefundo1.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#bloco1{
+    margin: 0px auto;
+    width:1575px;
+    height:320px;
+    display: block;
+}
+
+#foto_perfil{
+    width:175px;
+    position: absolute;
+    top: 20px;
+    left: 700px;
+    border-radius: 20px;
+    
+}
+
+@font-face{
+    
+    font-family: fonte;
+    src: url(fontes/GOURMET.ttf);
+
+}
+
+#titulo_nome{
+    position: relative;
+    top: 260px;
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    font-family: fonte;
+    margin: 0px auto;
+    text-transform: uppercase;
+}
+
+#bloco2{
+    width:1575px;
+    height:150px;   
+    position: relative;
+    display: block;
+}
+
+.informacoes{
+    font-size: 40px;
+    font-family: fonte;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px auto;
+}
+
+#bloco3{
+
+    display: block;
+    width: 1575px;
+    height: 350px;
+}
+
+.conhecimentos{
+
+    text-align:left;
+    font-size: 50px;
+    color: white;
+    font-family: fonte;
+    position: relative;
+    left: 250px;
+    top: 20px;
+    display: inline;
+    margin: auto;
+}
+
+#nav_conhecimentos{
+    display: block;
+    position: relative;
+    left: 205px;
+    top: 40px;
+    width: 500px;
+    
+}
+
+#ul_conhecimentos{
+    color: white;
+    font-family: fonte;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.certificados{
+    font-size: 50px;
+    color: white;
+    font-family: fonte;
+    display: inline;
+    position: relative;
+    text-transform: uppercase;
+    top: 20px;
+    left: 650px;
+}
+
+#nav_certificados{
+    display: block;
+    position: relative;
+    left: 845px;
+    width: 500px;
+    top: -200px;
+}
+
+#ul_certificados{
+    font-size: 35px;
+    font-family: fonte;
+    color:white;
+    text-transform: uppercase;
+    list-style: disc;
+
+}
+
+.links{
+
+    color: white;
+}
+
+#nav_contato{
+   width: 1575px;
+   position: relative;
+   display: block;
+   top: 100px;
+   
+}
+
+#ul_contato{
+    
+    text-align: right;
+    font-family: fonte;
+    font-size: 50px;
+    color:white;
+}
+
+.li_contato{
+
+   display: inline;
+   position: relative; 
+  padding-right: 50px;  
+}
+.imagens_contato{
+    border-radius: 10px;
+    width:30px;
+   
+}
+
+.a_contato{
+    text-decoration: none;
+    color:white;
+
+}
